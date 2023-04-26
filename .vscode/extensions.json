@@ -1,0 +1,7 @@
+{
+  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"],
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+}
+}
