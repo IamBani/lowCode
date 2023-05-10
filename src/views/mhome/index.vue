@@ -1,12 +1,7 @@
-<script lang="tsx">
-import { defineComponent, ref } from 'vue'
+<template>
+  <BText text="123" fontSize="20px" url="false1"></BText>
+</template>
 
-export default defineComponent({
-  setup() {
-    const num = ref('111')
-    return () => {
-      return <>{num.value}</>
-    }
-  },
-})
-</script>
+<script lang="ts" setup></script>
+
+<style></style>
